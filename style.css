@@ -65,3 +65,36 @@ h2 {
     border: 3px solid #6366f1;
     margin-bottom: 15px;
 }
+/* Layout styling for the connect link container */
+.connect-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+/* Turns plain hyperlinks into modern interactive buttons */
+.btn {
+    display: inline-block;
+    background-color: #6366f1; /* Vibrant indigo theme color */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Subtle interactive animation when hovering over buttons */
+.btn:hover {
+    background-color: #4f46e5; /* Darker indigo accent */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Clear margins and a bright look for project titles */
+.project-item h3 {
+    color: #38bdf8; /* Bright sky blue */
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
