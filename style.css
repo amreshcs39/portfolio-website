@@ -1,23 +1,59 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #0f172a; /* Sleek slate dark background */
+    color: #f8fafc;
     margin: 0;
-    padding: 40px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 80vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 header h1 {
-    color: #4f46e5; /* A vibrant modern purple/blue */
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    color: #6366f1; /* Vibrant indigo */
+    font-size: 2.8rem;
+    margin: 0;
 }
 
-section p {
-    font-size: 1.2rem;
-    color: #a3a3a3;
+.subtitle {
+    font-size: 1.3rem;
+    color: #94a3b8;
+    margin-top: 5px;
+}
+
+.card {
+    background-color: #1e293b; /* Slightly lighter dark card look */
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #38bdf8; /* Sky blue headers */
+    margin-top: 0;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 10px;
+}
+
+.skills-list span {
+    display: inline-block;
+    background-color: #334155;
+    color: #e2e8f0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 0.9rem;
+}
+
+.project-item h3 {
+    margin: 10px 0 5px 0;
+    color: #f1f5f9;
 }
