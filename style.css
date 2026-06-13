@@ -98,3 +98,43 @@ h2 {
     margin-bottom: 8px;
     margin-top: 5px;
 }
+
+/* Layout container for project buttons */
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+/* Base style for project action buttons */
+.project-btn {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+/* Secondary dark button for code repositories */
+.code-btn {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #334155;
+}
+
+.code-btn:hover {
+    background-color: #334155;
+    border-color: #475569;
+}
+
+/* Primary blue button for live deployment links */
+.live-btn {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+.live-btn:hover {
+    background-color: #7dd3fc;
+}
